@@ -1,0 +1,192 @@
+
+* {
+    background-color: #31145c;
+}
+
+
+.titulo {
+    font-family: 'New Rocker', cursive;
+    font-weight: 400;
+    font-size: 55px;
+    text-align: center;
+}
+
+
+.imagenespr {
+    display:flex;
+    justify-content: space-around;
+}
+
+.redesociales{
+
+    display:block;
+    font-size: 30px;
+    color: black;
+    list-style:none;
+}
+
+
+.subtitulos {
+    display: flex;
+    justify-content:space-around;
+
+}
+
+.quienesomos {
+    color:black;
+    font-size:larger;
+    font-weight:900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fechas {
+    color:black;
+    font-size:larger;
+    font-weight:900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.calendario {
+    color:black;
+    font-size:larger;
+    font-weight:900;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulodos {
+    font-size: 35px;
+    font-family: 'New Rocker', cursive;
+    text-decoration: underline;
+}
+
+
+.titulotres {
+    font-size: 50px;
+    font-family:  'New Rocker', cursive;
+    text-decoration: underline;
+}
+
+
+
+.titulocuatro{
+    font-size: 70px;
+    font-family: 'New Rocker', cursive;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.presentacion{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+
+
+.presdos {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mapas {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+
+.calendario  {
+
+    display:block;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    color:black;
+}
+
+.entradas {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+    text-align: justify;
+}
+
+.titulocinco {
+    font-size: 45px;
+    font-family:'New Rocker', cursive;
+    text-align: center;
+    text-decoration: underline;
+}
+
+
+.formulario {
+    font-size: 35px;
+    color:black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+::placeholder {
+     width: 100px;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+    border-color: aliceblue;
+    font-size:larger;
+}
+
+
+ .calendarioimagen {
+    
+    text-align:center;
+    object-fit: contain;
+    
+ }
+
+
+.opciones {
+    font-size:larger;
+    color: black;
+    font-weight:900
+}
+
+
+ .seleccion {
+     width: 150px;
+     height: 30px;
+ }
+
+.boton {
+    background-color: #31145c;
+    width: 200px;
+    height:75px; 
+    font-weight: bolder; 
+    font-size: larger;
+}
+
+
+.boton:hover {
+    background-color: red;
+    transition: background-color 3s ease-in-out;
+}
+
+ 
+ @media screen and (max-width: 390px){
+     h1 {
+         font-size: 40px;
+     }
+ }
+
+ @media screen and (max-width: 768px){
+     .imagenespr {
+         display:block;
+     }
+ }
+
+ @media screen and (max-width: 360px){
+     .subtitulos {
+         display:block;
+     }
+    
+ }
